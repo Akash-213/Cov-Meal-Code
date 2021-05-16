@@ -46,8 +46,14 @@ Our future planning includes adding an Instagram direct message functionality so
 React, Firebase
 
 ## Try it out :
-<a href= "https://covmeal.netlify.app"> Visit </a>
+<a href= "https://covmeal.netlify.app"> Website </a>  <br/>
+<a href = "https://youtu.be/-RddAECtSdY"> Youtube </a>
 
+
+## Developers :
+• <a href="https://github.com/Akash-213">Akash Kulakrni </a><br/>
+• <a href="https://github.com/PRATHAM2002-DS">Pratham More</a><br/>
+• <a href="https://github.com/master30112001">Vedant Bothikar</a><br/>
 
 
 
