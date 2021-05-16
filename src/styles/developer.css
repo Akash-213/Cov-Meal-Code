@@ -1,0 +1,16 @@
+.allcards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+@media (max-width: 800px) {
+  .allcards {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+  }
+}

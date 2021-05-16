@@ -1,0 +1,16 @@
+.partnerList{
+    border :1px solid blue;
+    margin: 10px;
+}
+
+.searchList{
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.searchList > input {
+    padding: 10px;
+    text-align: "center";
+    font-size: 18px;
+}
