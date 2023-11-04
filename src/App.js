@@ -20,7 +20,7 @@ function App() {
       <Switch>
         <Route path="/partnerForm" component={PartnerForm} />
         <Route path="/partnerList" component={PartnerList} />
-        <Route path="/developer" component={Developer} />
+        {/* <Route path="/developer" component={Developer} /> */}
         <Route path="/feedback" component={Feedback} />
         <Route path="/utils" component={Utils} />
         <Route path="/links" component={otherLink} />

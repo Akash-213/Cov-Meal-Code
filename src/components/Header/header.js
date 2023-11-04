@@ -76,7 +76,7 @@ function Header(props) {
           style={{
             cursor: "pointer",
             backgroundColor: "rgb(63, 81,181)",
-            color: "white"
+            color: "white",
           }}
           variant="h6"
           className={classes.title}
@@ -94,7 +94,8 @@ function Header(props) {
           style={{
             cursor: "pointer",
           }}
-          onClick={() => history.push("/partnerList")}>
+          onClick={() => history.push("/partnerList")}
+        >
           <ListItemIcon>
             <FastfoodIcon />
           </ListItemIcon>
@@ -105,7 +106,8 @@ function Header(props) {
           style={{
             cursor: "pointer",
           }}
-          onClick={() => history.push("/utils")}>
+          onClick={() => history.push("/utils")}
+        >
           <ListItemIcon>
             <BusinessIcon />
           </ListItemIcon>
@@ -118,8 +120,8 @@ function Header(props) {
           style={{
             cursor: "pointer",
           }}
-
-          onClick={() => history.push("/partnerForm")}>
+          onClick={() => history.push("/partnerForm")}
+        >
           <ListItemIcon>
             <AccessibilityNewIcon />
           </ListItemIcon>
@@ -130,7 +132,8 @@ function Header(props) {
           style={{
             cursor: "pointer",
           }}
-          onClick={() => history.push("/links")}>
+          onClick={() => history.push("/links")}
+        >
           <ListItemIcon>
             <LinkIcon />
           </ListItemIcon>
@@ -139,7 +142,7 @@ function Header(props) {
       </List>
       <Divider />
       <List>
-        <ListItem
+        {/* <ListItem
           style={{
             cursor: "pointer",
           }}
@@ -148,13 +151,14 @@ function Header(props) {
             <PeopleIcon />
           </ListItemIcon>
           <ListItemText primary="Developers" />
-        </ListItem>
+        </ListItem> */}
 
         <ListItem
           style={{
             cursor: "pointer",
           }}
-          onClick={() => history.push("/feedback")}>
+          onClick={() => history.push("/feedback")}
+        >
           <ListItemIcon>
             <FeedbackIcon />
           </ListItemIcon>
